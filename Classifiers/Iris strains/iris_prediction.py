@@ -53,7 +53,8 @@ classifier.add(Dense(units = 4, kernel_initializer = 'glorot_normal', activation
 classifier.add(Dense(units = 3, kernel_initializer = 'glorot_normal', activation = 'sigmoid'))
 
 # Compiling the ANN
-classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+# because we have more than two possible outputs, we have to choose categorical_crossentropy and not binary
+classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
 
 # Fitting the ANN to the Training set
 classifier.fit(X_train, y_train, batch_size = 8, epochs = 100)
