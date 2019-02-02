@@ -131,7 +131,7 @@ classifier.add(Dense(units = 1, kernel_initializer = 'glorot_normal', activation
 classifier.compile(optimizer = 'adam', loss = 'mse', metrics = ['accuracy'])
 
 # Fitting the ANN to the Training set
-classifier.fit(X_train, y_train, batch_size = 1, epochs = 100, verbose=0)
+classifier.fit(X_train, y_train, batch_size = 1, epochs = 1000, verbose=0)
 
 # Part 3 - Making predictions and evaluating the model'''
 
