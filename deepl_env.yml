@@ -1,0 +1,44 @@
+name: tensorflow
+channels:
+  - defaults
+dependencies:
+  - certifi=2018.11.29=py36_0
+  - pip=18.1=py36_0
+  - python=3.6.8=h9f7ef89_0
+  - setuptools=40.6.3=py36_0
+  - sqlite=3.26.0=he774522_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.15.26706=h3a45250_0
+  - wheel=0.32.3=py36_0
+  - wincertstore=0.2=py36h7fe50ca_0
+  - pip:
+    - absl-py==0.7.0
+    - astor==0.7.1
+    - cycler==0.10.0
+    - gast==0.2.2
+    - grpcio==1.18.0
+    - h5py==2.9.0
+    - keras==2.2.4
+    - keras-applications==1.0.6
+    - keras-preprocessing==1.0.5
+    - kiwisolver==1.0.1
+    - markdown==3.0.1
+    - matplotlib==3.0.2
+    - numpy==1.16.0
+    - pandas==0.24.0
+    - pillow==5.4.1
+    - protobuf==3.6.1
+    - pyparsing==2.3.1
+    - python-dateutil==2.7.5
+    - pytz==2018.9
+    - pyyaml==3.13
+    - scikit-learn==0.20.2
+    - scipy==1.2.0
+    - six==1.12.0
+    - sklearn==0.0
+    - tensorboard==1.12.2
+    - tensorflow==1.12.0
+    - termcolor==1.1.0
+    - werkzeug==0.14.1
+prefix: C:\Users\Louis\Anaconda3\envs\tensorflow
+
